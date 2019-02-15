@@ -1,14 +1,11 @@
 def oxford_comma(array)
-  array.first
-end
-
-def oxford_comma(array)
-  array.join(" and ")
-end
-
-def oxford_comma(array)
-  array.insert(1, "and").join(" ")
-end
-
-def oxford_comma(array)
-end
+  if array.length < 2
+ end 	    
+      array.join
+   elsif array.length == 2
+     array.insert(1, "and").join(" ")
+   else
+     string = ", and " + array.pop
+     string = array.join(", ") << str
+   end
+ end
